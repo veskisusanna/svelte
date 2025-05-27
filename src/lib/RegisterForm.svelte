@@ -23,7 +23,7 @@
   </script>
   
   <form on:submit|preventDefault={onSubmit} class="form">
-    <h2>Angulari abil loodud registreerimisvorm</h2>
+    <h2>Svelte'i abil loodud registreerimisvorm</h2>
     <input type="text" placeholder="Kasutajanimi" bind:value={username} required />
     <input type="email" placeholder="E-post" bind:value={email} required />
     <input type="password" placeholder="Parool" bind:value={password} required />
